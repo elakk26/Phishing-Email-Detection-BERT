@@ -1,5 +1,29 @@
+# Virtual Environment
 venv/
+env/
+ENV/
+.venv/
+
+# Python Cache
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
-*.pyc
-model/
+
+# Training Outputs & Logs
+results/
+logs/
+.cache/
+
+# Large Model Checkpoints (Keep fine-tuned export folder structure if needed)
+model/final_model/*.safetensors
+model/final_model/*.bin
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
